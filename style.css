@@ -1,24 +1,30 @@
 body {
     font-family: Arial, sans-serif;
-    background-image: url("image.webp");   /* Your image name */
-    background-size: cover;             /* Full screen */
-    background-position: center;        /* Center image */
-    background-repeat: no-repeat;       /* No repeat */
-    background-attachment: fixed;       /* Fixed while scrolling */
-    
+    background-color: #1e3c72;   /* Background color */
     text-align: center;
     padding-top: 50px;
-    color: white;
+    color: white;                /* Default text color */
 }
 
-/* Optional: Add dark overlay effect */
-body::before {
-    content: "";
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
-    z-index: -1;
+h1 {
+    color: yellow;               /* Heading text color */
+}
+
+p {
+    color: #f8f8f8;              /* Paragraph text color */
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: orange;    /* Button background */
+    color: black;                /* Button text color */
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: red;       /* Hover effect */
+    color: white;
 }
