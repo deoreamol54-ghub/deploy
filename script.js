@@ -1,3 +1,3 @@
 function showMessage() {
-    alert("Hello! Welcome to my simple website 😊");
+    alert("Hello! Welcome to AMD simple website 😊");
 }
